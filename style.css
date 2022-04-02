@@ -1,0 +1,141 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    background-color: cornflowerblue;
+    height: 100px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.flex-container{
+    height: 100px;
+    align-items: center;
+    
+}
+
+.flex-container, .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    list-style-type: none;
+    align-items: center;
+    width: 40%;
+    font-size: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    align-items: flex-start;
+    height: 600px;
+    width: 850px;
+    margin: 5px 100px;
+}
+
+.temp-select{
+    border-bottom: black 2px solid;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.temp-select #selectBox {
+    border: 2px black solid;
+    height: 30px;
+    width: 40px;
+}
+
+.main-weather-cards{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-card{
+    height: 340px;
+    width: 190px;
+    background-color: rgba(230, 227, 227, 0.966);
+}
+
+.weather-card img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.icon{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 30px;
+    color: black;
+}
+
+.degrees{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.degrees .high{
+    color: red;
+}
+
+.degrees .low{
+    color: dodgerblue;
+}
+
+#message{
+    border: black solid 4px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    
+
+
+}
+
+#message-words{
+    height: 100px;
+    width: 540px;
+    
+}
+
+#message-words a{
+    color: cornflowerblue;
+}
+
+#message-words p{
+    position: relative;
+    top: -15px;
+}
+
+#message img{
+    height: 80px;
+    align-items: center;
+}
+
+button{
+    height: 25px;
+    width: 90px;
+    background-color: rgb(113, 203, 206);
+    box-shadow: 3px 3px ;
+    
+}

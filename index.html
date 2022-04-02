@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a href="#" id="burbank" onclick="burbankAlert()">Burbank</a></li>
+                <li><a href="#" onclick="chicagoAlert()">Chicago</a></li>
+                <li><a href="#" onclick="dallasAlert()">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="temp-select">
+            <h2>San Jose</h2>
+            <p>show temperature in <select name="Temparature" id="selectBox" onchange="myFunction(), myFunction1(), myFunction2(),myFunction3(),myFunction4(),myFunction5(),myFunction6(),myFunction7()">
+                <option value="">°C</option>
+                <option value="Far">°F</option>
+            </select></p> 
+        </div>
+        <div class="main-weather-cards">
+            <div class="weather-card">
+                <div class="icon">
+                    <h2>Today</h2>
+                    <img src="images/some_rain.png" alt="some rain">
+                    <p>some rain</p>
+                </div>
+                <div class="degrees">
+                    <span class="high" id="TodayHigh" value="24">24°</span> 
+                    <span class="low" id="TodayLow" value="18">18°</span>
+                </div>
+            </div>
+            <div class="weather-card">
+                <div class="icon">
+                    <h2>Tomorrow</h2>
+                    <img src="images/some_sun.png" alt="some sun">
+                    <p>some rain</p>
+                </div>
+                <div class="degrees">
+                    <span class="high" id="TmwHigh" value="27">27°</span> 
+                    <span class="low" id="TmwLow" Value= "19">19°</span>
+                </div>
+            </div>
+            <div class="weather-card">
+                <div class="icon">
+                    <h2>Friday</h2>
+                    <img src="images/some_clouds.png" alt="some clouds">
+                    <p>some rain</p>
+                </div>
+                <div class="degrees">
+                    <span class="high" id="FridayHigh" value="21">21°</span> 
+                    <span class="low" id="FridayLow" value="16">16°</span>
+                </div>
+            </div>
+            <div class="weather-card">
+                <div class="icon">
+                    <h2>Saturday</h2>
+                    <img src="images/some_sun.png" alt="some sun">
+                    <p>some rain</p>
+                </div>
+                <div class="degrees">
+                    <span class="high" id="SaturdayHigh" value="26">26°</span> 
+                    <span class="low" id="SaturdayLow" value="21">21°</span>
+                </div>
+            </div>
+        </div>
+        <div id="message">
+            <img src="images/cookie.png" alt="cookie">
+            <div id="message-words">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read more...</a></p>
+            </div>
+            <button onclick="hide(this)">I Accept</button>
+        </div>
+    </div>
+
+
+    
+<script src="script.js"></script>    
+</body>
+</html>
