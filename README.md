@@ -1,5 +1,7 @@
 # weather-update
 
+https://juanramosj.github.io/weather-update/
+
 Task:
 
 Recreate the look of the Weather Forecast page using HTML and CSS
